@@ -222,8 +222,6 @@ footer {
 
 .escuderias tr:hover {
   background-color: rgb(114, 5, 5); /* Fondo rojo oscuro al pasar mouse */
-  transform: scale(1.2); /* Agranda fila al pasar mouse */
-  transition: transform 0.3s; /* Animación suave */
 }
 
 .corredores {
