@@ -90,7 +90,6 @@ details p {
 .participantes {
   background: black; /* Fondo negro */
   border-radius: 8px; /* Bordes redondeados */
-  overflow: hidden; /* Oculta contenido desbordado */
   text-align: center; /* Texto centrado */
   transition: transform 0.3s; /* Animación de escalado */
   color: white; /* Texto blanco */
@@ -123,7 +122,6 @@ footer {
   border-collapse: collapse; /* Bordes colapsados */
   color: white; /* Texto blanco */
   font-size: 20px; /* Tamaño del texto */
-  justify-content: center; /* Centra el contenido horizontalmente */
   margin: 5% 28%; /* Centrado manual horizontal */
 }
 
@@ -174,7 +172,6 @@ footer {
 .participantes2 {
   background: rgb(226, 6, 0); /* Fondo rojo */
   border-radius: 8px; /* Bordes redondeados */
-  overflow: hidden; /* Oculta lo que sobresale */
   text-align: left; /* Alineación izquierda */
   transition: transform 0.3s; /* Animación de escala */
   color: white; /* Texto blanco */
