@@ -1,0 +1,322 @@
+body {
+  margin: 0%;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  color: black;
+  padding: 0%;
+}
+
+.logo img {
+  width: 10%;
+  height: 10%;
+  margin: 5px;
+  padding: 5px;
+}
+
+header {
+  background: rgb(226, 6, 0);
+  padding: 20px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  width: 100vw;
+  border-bottom: 5px solid black;
+}
+
+nav {
+  background: black;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+  margin: 0%;
+  width: 100vw;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  padding: 5px;
+}
+
+nav a:hover {
+  color: rgb(226, 6, 0);
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+details {
+  background-color: rgb(226, 6, 0);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+summary {
+  font-weight: bold;
+  font-size: 19px;
+  color: white;
+  transition: color 0.3s;
+  padding: 5px;
+}
+
+summary:hover {
+  color: black;
+}
+
+details p {
+  margin-top: 10px;
+  font-size: 25px;
+  color: black;
+  padding: 10px;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: 30% 30% 30% 30%;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.participantes {
+  background: black;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+  color: white;
+  padding: 15px;
+  border: 2px solid white;
+}
+
+.participantes:hover {
+  transform: scale(1.05);
+}
+
+.participantes img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+footer {
+  text-align: center;
+  background: black;
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+  width: 100vw;
+}
+
+
+/*pistas*/
+.tabla-pistas table {
+  width: 50%;
+  border-collapse: collapse;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  margin: 5% 28%;
+}
+
+.tabla-galeria th,
+.tabla-galeria td {
+  border: 1px solid rgb(114, 5, 5);
+  padding: 5px;
+  text-align: center;
+}
+
+.tabla-galeria th {
+  background-color: rgb(226, 6, 0);
+  color: white;
+}
+
+.tabla-galeria tr {
+  background-color: black;
+}
+
+.tabla-galeria tr:hover {
+  background-color: rgb(114, 5, 5);
+}
+
+.tabla-galeria td img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.tabla-galeria td h3 {
+  color: white;
+}
+
+.info-pista {
+  text-align: center;
+  color: white;
+}
+/*fin pistas*/
+
+/*pilotos*/
+.galeria2 {
+  display: grid;
+  grid-template-columns: 30% 30% 30% 30%;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.participantes2 {
+  background: rgb(226, 6, 0);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s;
+  color: white;
+  padding: 15px;
+  border: 2px solid white;
+}
+
+.participantes2 h3 {
+  text-align: center;
+}
+
+
+.participantes2:hover {
+  transform: scale(1.2);
+  background: black;
+}
+
+.participantes2 img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+/*fin pilotos*/
+
+/*escuderias*/
+.escuderias table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  font-size: 18px;
+  border-radius: 15px;
+ }
+
+
+.escuderias th,
+.escuderias td {
+  border: 1px solid black;
+  padding: 12px;
+  text-align: center;
+}
+
+.escuderias tr:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+
+.escuderias th {
+  background-color: rgb(226, 6, 0);
+  color: white;
+}
+
+.escuderias tr {
+  background-color: black;
+}
+.escuderias tr:hover {
+  background-color: rgb(114, 5, 5);
+}
+
+.corredores {
+  height: 114px;
+  width: auto;
+  border-radius: 8px;
+}
+/*fin escuderias*/
+
+/*calendario*/
+.calendario-cuadro table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  font-size: 18px;
+  border-radius: 15px;
+ }
+
+.calendario-cuadro th,
+.calendario-cuadro td {
+  border: 1px solid rgb(114, 5, 5);
+  padding: 12px;
+  text-align: center;
+}
+
+.calendario-cuadro th {
+  background-color: rgb(226, 6, 0);
+  color: white;
+}
+
+.calendario-cuadro tr {
+  background-color: black;
+}
+.calendario-cuadro tr:hover {
+  background-color: rgb(114, 5, 5);
+}
+.calendario-cuadro ol {
+  text-align: left;
+}
+/*fin calendario*/
+
+.reglamentacion p, .reglamentacion li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+/*Inicio de sesion y registro*/
+.inicio-sesion, .registro {
+    max-width: 400px;
+    margin: 208px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid rgb(209, 207, 207);
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: rgb(114, 5, 5);
+}
+/*fin de inicio sesion y registro*/
