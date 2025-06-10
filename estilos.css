@@ -25,8 +25,8 @@ header {
 
 nav {
   background: black; /* Fondo negro para el menú de navegación */
-  display: flex; /* Usa flexbox para organizar los enlaces */
-  justify-content: center; /* Centra los enlaces horizontalmente */
+  display: flex; /* Usa flex para organizar los enlaces, display define cómo se organiza y muestra un elemento en el diseño de la página. */
+  justify-content: center; /* Centra flex horizontalmente */
   gap: 50px; /* Espacio entre enlaces */
   padding: 20px; /* Relleno interno */
   margin: 0%; /* Sin margen */
@@ -165,8 +165,8 @@ footer {
 
 /* pilotos */
 .galeria2 {
-  display: grid; /* Layout en grid */
-  grid-template-columns: 30% 30% 30% 30%; /* 4 columnas de 30% */
+  display: grid; /* grid para que se muestren en cuadricula */
+  grid-template-columns: 25% 25% 25% 25%; /* 4 columnas de 25% */
   gap: 20px; /* Espacio entre elementos */
   margin-top: 20px; /* Espacio arriba */
 }
