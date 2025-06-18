@@ -116,6 +116,11 @@ footer {
   width: 100vw; /* Ancho completo */
 }
 
+video {
+  height: 500px;
+  width: 800px;
+}
+
 /* pistas */
 .tabla-pistas table {
   width: 50%; /* Ancho del 50% */
