@@ -1,119 +1,99 @@
 body {
-  margin: 0%; /* Elimina márgenes por defecto del navegador */
-  font-family: 'Roboto', sans-serif; /* Fuente del texto en toda la página */
-  background-color: white; /* Fondo blanco de la página */
-  color: black; /* Texto negro por defecto */
-  padding: 0%; /* Elimina relleno por defecto */
+  margin: 0%;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  color: black;
+  padding: 0%;
 }
 
 .logo img {
-  width: 10%; /* Ancho del logo en proporción al contenedor */
-  height: 10%; /* Alto del logo */
-  margin: 5px; /* Espacio externo alrededor del logo */
-  padding: 5px; /* Espacio interno dentro del logo */
+  width: 10%;
+  height: 10%;
+  margin: 5px;
+  padding: 5px;
 }
 
 header {
-  background: rgb(226, 6, 0); /* Fondo rojo para el encabezado */
-  padding: 20px; /* Relleno interno */
-  text-align: center; /* Centra el texto */
-  font-size: 32px; /* Tamaño de letra grande */
-  font-weight: bold; /* Letra en negrita */
-  width: 100vw; /* Ocupa todo el ancho de la ventana */
-  border-bottom: 5px solid black; /* Borde inferior negro */
+  background: rgb(226, 6, 0);
+  padding: 20px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  width: 100vw;
+  border-bottom: 5px solid black;
 }
 
 nav {
-  background: black; /* Fondo negro para el menú de navegación */
-  display: flex; /* Usa flex para organizar los enlaces, display define cómo se organiza y muestra un elemento en el diseño de la página. */
-  justify-content: center; /* Centra flex horizontalmente */
-  gap: 50px; /* Espacio entre enlaces */
-  padding: 20px; /* Relleno interno */
-  margin: 0%; /* Sin margen */
-  width: 100vw; /* Ocupa todo el ancho */
+  background: black;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+  margin: 0%;
+  width: 100vw;
 }
 
 nav a {
-  color: white; /* Color blanco del texto */
-  text-decoration: none; /* Quita el subrayado */
-  font-weight: bold; /* Texto en negrita */
-  transition: color 0.3s; /* Transición suave al cambiar color */
-  padding: 5px; /* Espaciado interno */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  padding: 5px;
 }
 
 nav a:hover {
-  color: rgb(226, 6, 0); /* Cambia a rojo al pasar el mouse */
+  color: rgb(226, 6, 0);
 }
 
 section {
-  padding: 40px 20px; /* Relleno interior */
-  max-width: 1000px; /* Ancho máximo */
-  margin: 20px auto; /* Centrado y espacio externo */
-  border-radius: 10px; /* Bordes redondeados */
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  border-radius: 10px;
 }
 
 details {
-  background-color: rgb(226, 6, 0); /* Fondo rojo */
-  margin-bottom: 10px; /* Separación entre bloques */
-  border-radius: 5px; /* Bordes redondeados */
-  padding: 10px 15px; /* Espacio interno */
-  cursor: pointer; /* Muestra cursor de clic */
-  border: 2px solid black; /* Borde negro */
+  background-color: rgb(226, 6, 0);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 2px solid black;
 }
 
 summary {
-  font-weight: bold; /* Texto en negrita */
-  font-size: 19px; /* Tamaño de letra */
-  color: white; /* Color del texto */
-  transition: color 0.3s; /* Efecto suave al cambiar color */
-  padding: 5px; /* Relleno interno */
+  font-weight: bold;
+  font-size: 19px;
+  color: white;
+  transition: color 0.3s;
+  padding: 5px;
 }
 
 summary:hover {
-  color: black; /* Cambia color del texto al pasar el mouse */
+  color: black;
 }
 
 details p {
-  margin-top: 10px; /* Espacio encima del párrafo */
-  font-size: 25px; /* Tamaño de texto grande */
-  color: black; /* Texto en negro */
-  padding: 10px; /* Relleno interno */
+  margin-top: 10px;
+  font-size: 25px;
+  color: black;
+  padding: 10px;
 }
 
 .galeria {
-  display: grid; /* Usa grid layout */
-  grid-template-columns: 30% 30% 30% 30%; /* Cuatro columnas, puede desbordar */
-  gap: 20px; /* Espacio entre celdas */
-  margin-top: 20px; /* Espacio arriba */
-}
-
-.participantes {
-  background: black; /* Fondo negro */
-  border-radius: 8px; /* Bordes redondeados */
-  text-align: center; /* Texto centrado */
-  transition: transform 0.3s; /* Animación de escalado */
-  color: white; /* Texto blanco */
-  padding: 15px; /* Relleno interno */
-  border: 2px solid white; /* Borde blanco */
-}
-
-.participantes:hover {
-  transform: scale(1.05); /* Escala el tamaño al pasar el mouse */
-}
-
-.participantes img {
-  width: 100%; /* Imagen ocupa todo el ancho */
-  height: 150px; /* Altura fija */
-  object-fit: cover; /* Cubre el espacio sin deformarse */
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 20px;
+  margin-top: 10px;
 }
 
 footer {
-  text-align: center; /* Texto centrado */
-  background: black; /* Fondo negro */
-  padding: 20px; /* Relleno interno */
-  font-size: 16px; /* Tamaño del texto */
-  color: white; /* Color del texto */
-  width: 100vw; /* Ancho completo */
+  text-align: center;
+  background: black;
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+  width: 100vw;
 }
 
 video {
@@ -121,201 +101,226 @@ video {
   width: 800px;
 }
 
-/* pistas */
+figcaption {
+  font-size: 11.5px;
+}
+
+/* inicio pilotos */
+.participantes {
+  background: black;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s;
+  color: white;
+  padding: 15px;
+}
+
+.participantes:hover {
+  transform: scale(1.05);
+}
+
+.participantes img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+/* fin pilotos */
+
+
+/* inicio pistas */
 .tabla-pistas table {
-  width: 50%; /* Ancho del 50% */
-  border-collapse: collapse; /* Bordes colapsados */
-  color: white; /* Texto blanco */
-  font-size: 20px; /* Tamaño del texto */
-  margin: 5% 28%; /* Centrado manual horizontal */
+  width: 50%;
+  border-collapse: collapse;
+  color: white;
+  font-size: 20px;
+  margin: 5% 28%;
 }
 
 .tabla-galeria th,
 .tabla-galeria td {
-  border: 1px solid rgb(114, 5, 5); /* Bordes rojos oscuros */
-  padding: 5px; /* Espacio interno */
-  text-align: center; /* Texto centrado */
+  border: 1px solid rgb(114, 5, 5);
+  padding: 5px;
+  text-align: center;
 }
 
 .tabla-galeria th {
-  background-color: rgb(226, 6, 0); /* Fondo rojo */
-  color: white; /* Texto blanco */
+  background-color: rgb(226, 6, 0);
+  color: white;
 }
 
 .tabla-galeria tr {
-  background-color: black; /* Fondo negro */
+  background-color: black;
 }
 
 .tabla-galeria tr:hover {
-  background-color: rgb(114, 5, 5); /* Fondo rojo oscuro al pasar mouse */
+  background-color: rgb(114, 5, 5);
 }
 
 .tabla-galeria td img {
-  width: 100%; /* Imagen ocupa todo el ancho */
-  max-width: 400px; /* Máximo 400px de ancho */
-  height: auto; /* Altura automática */
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 .tabla-galeria td h3 {
-  color: white; /* Texto blanco */
+  color: white;
 }
 
 .info-pista {
-  text-align: center; /* Centra el texto */
-  color: white; /* Texto blanco */
+  text-align: center;
+  color: white;
 }
 /* fin pistas */
 
-/* pilotos */
+/* inicio pilotos */
 .galeria2 {
-  display: grid; /* grid para que se muestren en cuadricula */
-  grid-template-columns: 25% 25% 25% 25%; /* 4 columnas de 25% */
-  gap: 20px; /* Espacio entre elementos */
-  margin-top: 20px; /* Espacio arriba */
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 20px;
+  margin-top: 20px;
 }
 
 .participantes2 {
-  background: rgb(226, 6, 0); /* Fondo rojo */
-  border-radius: 8px; /* Bordes redondeados */
-  text-align: left; /* Alineación izquierda */
-  transition: transform 0.3s; /* Animación de escala */
-  color: white; /* Texto blanco */
-  padding: 15px; /* Relleno interno */
-  border: 2px solid white; /* Borde blanco */
+  background: rgb(226, 6, 0);
+  border-radius: 8px;
+  text-align: left;
+  transition: transform 0.3s;
+  color: white;
+  padding: 15px;
+  border: 2px solid white;
 }
 
 .participantes2 h3 {
-  text-align: center; /* Título centrado */
+  text-align: center;
 }
 
 .participantes2:hover {
-  transform: scale(1.2); /* Agranda al pasar el mouse */
-  background: black; /* Cambia fondo a negro */
+  transform: scale(1.2);
+  background: black;
 }
 
 .participantes2 img {
-  width: 100%; /* Imagen ocupa todo el ancho */
-  height: 150px; /* Altura fija */
-  object-fit: cover; /* Ajuste sin deformar */
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
 }
 /* fin pilotos */
 
-/* escuderías */
+/* inicio escuderías */
 .escuderias table {
-  width: 100%; /* Ancho completo */
-  border-collapse: collapse; /* Colapsa bordes */
-  color: white; /* Texto blanco */
-  font-size: 18px; /* Tamaño del texto */
-  border-radius: 15px; /* Bordes redondeados */
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  font-size: 18px;
+  border-radius: 15px;
 }
 
 .escuderias th,
 .escuderias td {
-  border: 1px solid black; /* Bordes negros */
-  padding: 12px; /* Espaciado interno */
-  text-align: center; /* Texto centrado */
+  border: 1px solid rgb(114, 5, 5);
+  padding: 12px;
+  text-align: center;
 }
 
 .escuderias th {
-  background-color: rgb(226, 6, 0); /* Fondo rojo */
-  color: white; /* Texto blanco */
+  background-color: rgb(226, 6, 0);
+  color: white;
 }
 
 .escuderias tr {
-  background-color: black; /* Fondo negro */
+  background-color: black;
 }
 
 .escuderias tr:hover {
-  background-color: rgb(114, 5, 5); /* Fondo rojo oscuro al pasar mouse */
+  background-color: rgb(114, 5, 5);
 }
 
 .corredores {
-  height: 114px; /* Altura fija */
-  width: auto; /* Ancho automático */
-  border-radius: 8px; /* Bordes redondeados */
+  height: 114px;
+  width: auto;
+  border-radius: 8px;
 }
 /* fin escuderías */
 
-/* calendario */
+/* inicio calendario */
 .calendario-cuadro table {
-  width: 100%; /* Ancho completo */
-  border-collapse: collapse; /* Colapsa bordes */
-  color: white; /* Texto blanco */
-  font-size: 18px; /* Tamaño de texto */
-  border-radius: 15px; /* Bordes redondeados */
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  font-size: 18px;
+  border-radius: 15px;
 }
 
 .calendario-cuadro th,
 .calendario-cuadro td {
-  border: 1px solid rgb(114, 5, 5); /* Bordes rojos oscuros */
-  padding: 12px; /* Espaciado interno */
-  text-align: center; /* Texto centrado */
+  border: 1px solid rgb(114, 5, 5);
+  padding: 12px;
+  text-align: center;
 }
 
 .calendario-cuadro th {
-  background-color: rgb(226, 6, 0); /* Fondo rojo */
-  color: white; /* Texto blanco */
+  background-color: rgb(226, 6, 0);
+  color: white;
 }
 
 .calendario-cuadro tr {
-  background-color: black; /* Fondo negro */
+  background-color: black;
 }
 
 .calendario-cuadro tr:hover {
-  background-color: rgb(114, 5, 5); /* Cambia a rojo oscuro al pasar mouse */
+  background-color: rgb(114, 5, 5);
 }
 
 .calendario-cuadro ol {
-  text-align: left; /* Lista alineada a la izquierda */
+  text-align: left;
 }
 /* fin calendario */
 
 .reglamentacion p, .reglamentacion li {
-  margin-bottom: 15px; /* Separación inferior */
-  font-size: 16px; /* Tamaño de letra */
-  padding-bottom: 10px; /* Relleno inferior */
-  text-align: left; /* Alineación a la izquierda */
+  margin-bottom: 15px;
+  font-size: 16px;
+  padding-bottom: 10px;
+  text-align: left;
 }
 
 /* inicio de sesión y registro */
 .inicio-sesion, .registro {
-  max-width: 400px; /* Ancho máximo */
-  margin: 208px auto; /* Centrado vertical y horizontal */
-  padding: 25px; /* Relleno interno */
-  background: white; /* Fondo blanco */
-  border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 0 10px black; /* Sombra negra */
+  max-width: 400px;
+  margin: 208px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
 }
 
 form {
-  display: flex; /* Layout flexbox */
-  flex-direction: column; /* Elementos en columna */
+  display: flex;
+  flex-direction: column;
 }
 
 form label {
-  margin-top: 10px; /* Separación superior */
-  font-weight: bold; /* Texto en negrita */
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 form input {
-  padding: 8px; /* Relleno interno */
-  margin-top: 5px; /* Espacio encima */
-  border: 1px solid rgb(209, 207, 207); /* Borde gris claro */
-  border-radius: 5px; /* Bordes redondeados */
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid rgb(209, 207, 207);
+  border-radius: 5px;
 }
 
 form button {
-  margin-top: 15px; /* Separación superior */
-  padding: 10px; /* Relleno interno */
-  background-color: black; /* Fondo negro */
-  color: white; /* Texto blanco */
-  border: none; /* Sin borde */
-  cursor: pointer; /* Cursor tipo mano */
-  border-radius: 5px; /* Bordes redondeados */
+  margin-top: 15px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 form button:hover {
-  background-color: rgb(114, 5, 5); /* Fondo rojo oscuro al pasar mouse */
+  background-color: rgb(114, 5, 5);
 }
 /* fin inicio de sesión y registro */
-/*fin de inicio sesion y registro*/
